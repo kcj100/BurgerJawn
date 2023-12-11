@@ -9,3 +9,11 @@
 #burger-text {
     font-size: 25px;
 }
+
+.button-group {
+    height: 55px;
+}
+
+.card-text.menu {
+    font-size: 20px;
+}

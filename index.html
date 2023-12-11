@@ -41,25 +41,48 @@
     </nav>
 
     <header class="bg-dark text-light p-5">
-      <div class="container d-flex flex-row justify-content-start">
-        <div class="image-container">
-          <img src="images/burgerjawn.png" alt="burger jawn photo" />
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="image-container">
+                <img src="images/burgerjawn.png" alt="burger jawn photo" />
+            </div>
+            <div class="head-container ms-0 me-auto">
+                <h1>America's Burger Jawn</h1>
+                <p id="burger-text">
+                    This Burger is so good....<br />
+                    Makes you wanna slap your.... !
+                </p>
+                <div class="button-group d-flex ">
+                    <button type="button" class="btn btn-primary btn-lg me-2">
+                        <i class="bi bi-facebook">    </i>Facebook
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg ms-5">
+                        <i class="bi bi-twitter">  </i>Twitter
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="head-container ms-0 me-auto">
-          <h1>America's Burger Jawn</h1>
-          <p id="burger-text">
-            This Burger is so good....<br />
-            Makes you wanna slap your.... !
-          </p>
-          <button type="button" class="btn btn-primary btn-lg">
-            <i class="bi bi-facebook">    </i>Facebook
-          </button>
-          <button type="button" class="btn btn-primary btn-lg">
-            <i class="bi bi-twitter">  </i>Twitter
-          </button>
-        </div>
-      </div>
+    </div>
     </header>
+
+    <section class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white"></h2>
+            <p class="lead text-center text-white mb-5"></p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light rounded-5">
+                        <div class="card-body text-center">
+                            <h2 class="card-title mb-3 pb-3 border-bottom border-3">Burger Menu</h2>
+                            <p class="card-text menu">Cheese burger. $5</p>
+                            <p class="card-text menu">Ham Burger. $4</p>
+                            <p class="card-text menu">Cheese burger. $3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
