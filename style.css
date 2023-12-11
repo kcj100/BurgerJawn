@@ -1,5 +1,12 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
 #burger-jawn {
     font-size: 45px;
+    color:white;
 }
 
 .image-container {
@@ -8,6 +15,7 @@
 
 #burger-text {
     font-size: 25px;
+    color: lightgray;
 }
 
 .button-group {
@@ -15,5 +23,17 @@
 }
 
 .card-text.menu {
+    font-size: 20px;
+}
+
+#chef {
+    width: 150px;
+    border-radius: 50%;
+    border-color: gray;
+    border-style:inset;
+    overflow: hidden;
+}
+
+#copyright {
     font-size: 20px;
 }
