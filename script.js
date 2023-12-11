@@ -1,10 +1,8 @@
 $(document).ready(function() {
-    // Function to update the image for a given card
     function updateCardImage(cardId, imageUrl) {
         $('#card-' + cardId).attr('src', imageUrl);
       }
 
-    // Make six AJAX requests to the Random User Generator API
     for (let i = 1; i <= 6; i++) {
         $.ajax({
           url: 'https://randomuser.me/api/',
